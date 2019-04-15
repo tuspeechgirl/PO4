@@ -40,7 +40,7 @@ label{
     display: block;
     padding: 0;
     text-indent: -9999px;
-    background: #fff url(https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png) 50% 50% / 25px 25px no-repeat;
+    background: #fff url("images/sqq.png") 50% 50% / 60px 65px no-repeat;
   }
   ul
     li
@@ -115,7 +115,7 @@ p{
 
 
 	/*.************************ END HOME PAGE NAVIGATION**************.*/
-	/*.************************ END HOME PAGE NAVIGATION**************.*/
+	/*.************************  ANNIMATION HOME PAGE NAVIGATION**************.*/
 	li {
 	    margin-bottom: 10px;
 	}
@@ -138,4 +138,8 @@ p{
 	.cool-link:hover::after {
 	    width: 100%;
 	    //transition: width .3s;
+	}
+	/*.************************ LOGO HOME PAGE NAVIGATION**************.*/
+	.logo{
+		width: 20%;
 	}
