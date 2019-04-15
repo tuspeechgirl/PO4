@@ -8,6 +8,8 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
     display:block;
 }
 /*.************************HOME PAGE NAVIGATION**************.*/
+
+
 #wrapper{
   position: absolute;
   width: 100%;
@@ -16,9 +18,9 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 }
 label{
   cursor: pointer;
-  &:focus;
+  &:focus
     outline: none;
-}
+	}
 .menu{
   position: absolute;
   top: 0;
@@ -29,7 +31,7 @@ label{
   transform: translate3d(-240px, 0, 0);
   transition: transform 0.35s;
 }
-  label.menu-toggle{
+  label.menu-toggle  {
     position: absolute;
     right: -60px;
     width: 60px;
@@ -39,11 +41,11 @@ label{
     padding: 0;
     text-indent: -9999px;
     background: #fff url(https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png) 50% 50% / 25px 25px no-repeat;
-}
+  }
   ul
     li
       > label{
-        background: url(https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-arrow-right-b-128.png) 95% 50% / 16px 16px no-repeat;
+        background: url(https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-arrow-right-b-128.png) 95% 50% / 16px 16px no-repeat
 }
 			a, label{
         display: block;
@@ -52,10 +54,11 @@ label{
         line-height: 60px;
         text-decoration: none;
         color: #000;
+			}
         &:hover{
           color: #666;
 				}
-}
+
 /* hide inputs */
 .menu-checkbox{
   display: none;
@@ -67,15 +70,15 @@ label{
 /* fade in checked menu */
 .menu-checkbox:checked + .menu{
   transform: translate3d(0, 0, 0);
-
 }
+
 
 /* for show */
 html, body{
   height: 100%;
 }
-body{
-  background: url("images/up.gif") 50% 50% / cover;
+#home{
+  background: url("images/up.gif") 60% 40% / cover;
 }
 p{
   margin-bottom: 15px;
@@ -102,11 +105,37 @@ p{
       font-size: 22px;
       font-weight: normal;
       padding: 20px;
+      margin: 10px;
       display: inline-block;
 		}
       strong{
         display: block;
         font-size: 26px;
+   }
 
-  }
-/*.************************ END HOME PAGE NAVIGATION**************.*/
+
+	/*.************************ END HOME PAGE NAVIGATION**************.*/
+	/*.************************ END HOME PAGE NAVIGATION**************.*/
+	li {
+	    margin-bottom: 10px;
+	}
+
+	.cool-link {
+	    display: inline-block;
+	    color: #000;
+	    text-decoration: none;
+	}
+
+	.cool-link::after {
+	    content: '';
+	    display: block;
+	    width: 0;
+	    height: 2px;
+	    background: #000;
+	    transition: width .3s;
+	}
+
+	.cool-link:hover::after {
+	    width: 100%;
+	    //transition: width .3s;
+	}
