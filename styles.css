@@ -8,7 +8,9 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
     display:block;
 }
 /*.************************HOME PAGE NAVIGATION**************.*/
-
+body{
+	font-family: 'Dosis', sans-serif;
+}
 
 #wrapper{
   position: absolute;
@@ -93,7 +95,7 @@ p{
     display: table-cell;
     vertical-align: middle;
     text-align: center;
-    text-transform: uppercase;
+    text-transform: none;
     color: #fff;
     font-size: 12px;
 	}
@@ -143,3 +145,15 @@ p{
 	.logo{
 		width: 20%;
 	}
+	/*.************************  ABOUT  PAGE NAVIGATION**************.*/
+
+.sq1{
+	width: 75%;
+}
+.main-container{
+background: rgba(255, 253, 208, .5);
+}
+.one{
+font-family: 'Dosis', sans-serif;
+text-transform:none;
+}

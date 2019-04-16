@@ -22,3 +22,5 @@ $(document).ready(function() {
 
     });
 });
+
+$(".about").backstretch("images/brown.jpg");
