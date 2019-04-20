@@ -257,11 +257,13 @@ color:#603813;
 .images-secret{
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 }
 .images-secret figure img{
 width:300px;
 	margin-bottom:0;
 	padding-bottom: 0;
+	padding-right: 10px;
 }
 .images img{
 	max-width: 300px;
