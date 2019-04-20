@@ -108,6 +108,7 @@ p{
       padding: 20px;
       margin: 10px;
       display: inline-block;
+
 		}
       strong{
         display: block;
@@ -150,11 +151,11 @@ p{
 	width: 65%;
 }
 .about{
-	width: 65%;
+	width: 55%;
 }
 .main-container{
 background: rgba(255, 253, 208, .5);
-width: 75%;
+width:80%;
 margin-left: 25px;
 
 }
@@ -171,8 +172,9 @@ flex-flow:column;
 .one h3{
 	padding-bottom: 6%;
 }
-
-
+.food{
+	width:250px;
+}
 /*.***********LIST**********.*/
 /* LIST #2 */
 #list2 {
@@ -218,17 +220,17 @@ flex-flow:column;
 color:#603813;
 }
 /*.******START FLEXBOX*******.*/
-.pic-grid{
+.images-secret{
 	display: flex;
 	flex-wrap: wrap;
 }
-figure{
-	width:100%;
+.images-secret figure{
+	width:30%;
 	margin-bottom:0;
 	padding-bottom: 0;
 }
-img{
-	max-width: 100%;
+.images-img{
+	max-width: 50%;
 }
 
 /*.******END FLEXBOX*******.*/
