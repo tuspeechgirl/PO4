@@ -163,6 +163,7 @@ p{
 
 .sq1{
 	width: 65%;
+	padding-top: 5%;
 }
 .about{
 	width: 55%;
@@ -230,6 +231,7 @@ flex-flow:column;
  }
 #list2 ol
  {
+
 	  font-style:italic;
 	 font-size:1.5rem;
 	  color:#f3c935;
@@ -237,6 +239,7 @@ flex-flow:column;
 		padding-right: 10%;
 	}
 #list2 ol li {
+
 	line-height: 1rem;
 
 }
@@ -348,8 +351,10 @@ padding-bottom: 5px;
 }
 
 .link{
-		height: 55px;
-		margin-bottom: 55px;
+	max-width: 300px;
+	height: 25px;
+
+		margin: 0  auto 100px auto;
 		webkit-animation: heartbeat 1.5s ease-in-out 1s infinite both;
 	        animation: heartbeat 1.5s ease-in-out 1s infinite both;
 }
@@ -517,7 +522,7 @@ ins.play-gif:hover{
 /*.**********************MEDIA QUERIES STARTS*****************.*/
 
 @media(min-width:390px){
-	h1{
+	.aboutsq{
 	font-size: 3rem;
 	}
 	.title{
@@ -541,17 +546,27 @@ ins.play-gif:hover{
 .food{
 	width:320px;
 }
+.main-container2{
+	width:85%;
+
+}
 
 }
 /*.**********************MEDIA QUERIES STARTS*****************.*/
 
 @media(min-width:450px){
-	h1{
+	.homesq{
+
 	font-size: 4rem;
 	}
-	#list2 ol li p {
-		font-size: 1.3rem;
-		line-height: 2rem;
+#list2 ol{
+	padding-left: 50%;
+}
+	#list2 ol li p,{
+		font-size: 1rem;
+		line-height: 1.3rem;
+		padding-bottom: 10px;
+	  height: 100%;
 	}
 	.sq1{
 		width: 80%;
@@ -565,18 +580,97 @@ ins.play-gif:hover{
 	.main-container{
 		width: 90%;
 	}
+
+	.link p {
+		font-size: 1rem;
+	}
+.book-info p {
+	margin:  0 auto;
+	padding: 10%;
+	font-size: 1rem;
 }
-
-
+.acorn{
+	width: 20%;
+}
+}
 
 
 /*.**********************MEDIA QUERIES STARTS*****************.*/
 
 @media(min-width:500px){
-	h1{
+	.main-container2 p{
+		font-size: 1rem;
+		margin: 0 auto;
+		padding: 8%;
+	}
+	.homesq{
 	font-size: 5rem;
 	}
 	.title{
 		font-size: 1.5rem;
 	}
+
+}
+
+
+/*.**********************MEDIA QUERIES STARTS*****************.*/
+
+@media(min-width:536px){
+
+#list2 ol {
+	display:flex;
+	flex-direction: column;
+flex-wrap: wrap;
+font-size: 1.8rem;
+padding-left: 18%;
+height: 400px;
+
+}
+#list2 ol li p, #list2 ol li p em {
+	padding-bottom: 50%;
+	padding-right:65%;
+	font-size: 1.2rem;
+}
+.main-container2{
+	width: 90%;
+}
+}
+
+
+
+/*.**********************MEDIA QUERIES STARTS*****************.*/
+
+@media(min-width:785px){
+.hidden img{
+width:80%;
+}
+}
+
+/*.**********************MEDIA QUERIES STARTS*****************.*/
+
+@media(min-width:1000px){
+	.main-container{
+	width: 95%;
+	}
+	.food{
+		width: 500px;
+	}
+
+	#list2 ol {
+
+	font-size: 3rem;
+	margin: 0 auto;
+	padding-left: 50%;
+	margin-right: 10%;
+	height: 400px;
+
+	}
+	#list2 ol li p, #list2 ol li p em {
+		padding-bottom: 50%;
+		padding-right:65%;
+		font-size: 2rem;
+		line-height: 15px;
+	}
+	}
+
 }
