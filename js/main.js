@@ -1,3 +1,5 @@
+
+
 $(document).ready(function() {
 
   var active1 = false;
@@ -23,4 +25,10 @@ $(document).ready(function() {
     });
 });
 
+
+
+
 $(".about").backstretch("images/brown.jpg");
+
+
+	$('.gifplayer').gifplayer();
