@@ -254,6 +254,38 @@ flex-flow:column;
 	 color:#603813;
  }
 
+
+
+/*.**************WANKER*************.*/
+
+
+
+ .wanker {
+   /* Full-screen takeover… */
+   background: url("images/sqgun.jpg");
+   color: #FFF;
+   display: none;
+   height: 100%;
+   left: 0;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: 2014;
+	 background-size: cover;
+ }
+
+ .wanker-content {
+   /* Additional design… */
+ }
+
+
+
+/*.CURSOR*******************.*/
+
+
+
+
+
 /*.****************TWO*****************.*/
 .two{
 	padding: 5%;
