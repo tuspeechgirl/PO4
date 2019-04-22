@@ -185,6 +185,7 @@ flex-flow:column;
 }
 .one h3{
 	padding-bottom: 6%;
+	text-decoration: underline;
 }
 .food{
 	width:250px;
@@ -508,4 +509,74 @@ ins.play-gif:hover{
 @keyframes rotation {
 	from {transform: rotate(0deg);}
 	to {transform: rotate(359deg);}
+}
+
+
+
+
+/*.**********************MEDIA QUERIES STARTS*****************.*/
+
+@media(min-width:390px){
+	h1{
+	font-size: 3rem;
+	}
+	.title{
+		font-size: 1rem;
+	}
+	#list2 ol li p {
+		font-size: 1rem;
+	}
+	.two h3, .one h3 {
+		font-size: 1.5rem;
+}
+.two p{
+	font-size: 1rem;
+}
+.one h2{
+	font-size:1.7rem;
+}
+.main-container{
+	width: 85%;
+}
+.food{
+	width:320px;
+}
+
+}
+/*.**********************MEDIA QUERIES STARTS*****************.*/
+
+@media(min-width:450px){
+	h1{
+	font-size: 4rem;
+	}
+	#list2 ol li p {
+		font-size: 1.3rem;
+		line-height: 2rem;
+	}
+	.sq1{
+		width: 80%;
+	}
+	.tree{
+		width: 80%;
+	}
+	.food{
+		width:320px;
+	}
+	.main-container{
+		width: 90%;
+	}
+}
+
+
+
+
+/*.**********************MEDIA QUERIES STARTS*****************.*/
+
+@media(min-width:500px){
+	h1{
+	font-size: 5rem;
+	}
+	.title{
+		font-size: 1.5rem;
+	}
 }
